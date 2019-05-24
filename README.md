@@ -1,0 +1,1 @@
+It is an assignment project from The Odin Project Curriculum. Its goal is to recreate google homepage using html and CSS.
