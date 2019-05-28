@@ -1,0 +1,115 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    overflow: scroll;
+    
+}
+
+li {
+    list-style: none;
+    font-size: 0.8rem;
+    display: inline-block;
+    padding: 25px 10px;
+    
+}
+/* UTILITY CLASSES */
+.btn-light {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 0.9rem;
+    
+ 
+}
+
+.btn-blue {
+    background-color: #4285f4;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+    
+ 
+}
+
+i.material-icons {
+   position: relative;
+   bottom: 4px;
+}
+
+/* HEADER */
+
+.navbar-container {
+    padding: 0px 30px;
+    height: 50px;
+    
+    
+}
+ul.nav-left li {
+    float: left;
+}
+
+ul.nav-right li {
+    float: right;
+}
+/* MAIN BODY */
+
+
+.main-wrapper   {  
+    padding: 150px 0 120px 0;
+    text-align: center;
+    height: 500px;
+}
+
+.main-wrapper img {
+    display: block;
+    margin: auto;
+ 
+    margin-bottom: 45px;
+}
+.main-wrapper a {
+    display: inline-block;
+    margin: auto;
+    margin: 0 5px;
+}
+
+.searchbox {
+    display: flex;    
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: -40px;
+}
+.main-wrapper input {
+    height: 2.5rem;
+    width: 30rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    display: inline-block;
+    margin: auto;
+
+ 
+
+}
+
+#privacy {
+    height: 100px;
+
+    border-top: 1px solid #dfe1e5
+}
+
+#mic-img {
+    width: 1.6rem;
+    display: inline-block;
+    position: relative;
+    top: -32px;
+    right: -215px;
+   
+}
