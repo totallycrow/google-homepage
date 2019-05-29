@@ -7,7 +7,8 @@
 
 body {
     font-family: arial, sans-serif;
-    overflow: scroll;
+    
+   
     
 }
 
@@ -18,6 +19,21 @@ li {
     padding: 25px 10px;
     
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+
+#navbar-header a:hover, #footer a:hover {
+    text-decoration: underline;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
 /* UTILITY CLASSES */
 .btn-light {
     background-color: #f2f2f2;
@@ -25,8 +41,21 @@ li {
     text-decoration: none;
     color: #5F6368;
     font-size: 0.9rem;
+    border-radius: 3px;
+    margin: 0;
+    border: 1px solid transparent;
+    
     
  
+}
+
+.btn-light:hover {
+   
+    border: 1px solid #dfe1e5;
+    
+    
+ 
+    
 }
 
 .btn-blue {
@@ -66,7 +95,7 @@ ul.nav-right li {
 .main-wrapper   {  
     padding: 150px 0 120px 0;
     text-align: center;
-    height: 500px;
+    ;
 }
 
 .main-wrapper img {
@@ -99,10 +128,23 @@ ul.nav-right li {
 
 }
 
-#privacy {
-    height: 100px;
+.main-wrapper input:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.foot-bar {
+    height: 35px;
+    background: #f2f2f2;
 
-    border-top: 1px solid #dfe1e5
+    border-top: 1px solid #dfe1e5;
+
+ 
+    
 }
 
 #mic-img {
@@ -111,5 +153,57 @@ ul.nav-right li {
     position: relative;
     top: -32px;
     right: -215px;
+    opacity: 1;
    
+}
+
+a.full-opacity {
+    opacity: 1;;
+}
+
+.bottom-container {
+    
+ 
+   
+  
+
+
+}
+
+.footer-lists {
+    padding: 10px 30px;
+    margin: 0;
+    color: #5F6368;
+}
+
+.footer2 {
+    padding: 10px;
+    
+}
+
+.margin-left-sml {
+    margin-left: 20px;
+}
+
+.font-big {
+    font-size: 0.9rem;
+}
+
+.footer-right {
+    float: right;
+}
+
+.margin-right-sml {
+    margin-right: 20px;
+}
+
+.foot-bar a {
+    text-decoration: none;
+    color: #5F6368;
+}
+
+input#main-search {
+    padding-left: 20px;
+    font-size: 1.0rem;
+
 }
